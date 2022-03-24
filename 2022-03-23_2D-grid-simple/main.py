@@ -8,7 +8,7 @@ from time import sleep
 
 # CONSTANTS:
 SCREENSIZE = WIDTH, HEIGHT = 800, 600
-GRIDSIZE= ROWS, COLS = 12,16
+GRIDSIZE= ROWS, COLS = 60,80
 BLACK = (0, 0, 0)
 GREY = (200, 200, 200)
 WHITE = (255,255,255)
@@ -77,7 +77,7 @@ def updateGrid(grid):
   return newGrid
 
 def drawRect(i,j,value):
-  SIZE=20
+  SIZE=10
   pygame.draw.rect(
     _VARS['surf'], 
     BLACK,
